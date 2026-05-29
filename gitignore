@@ -1,0 +1,29 @@
+# =============================================================================
+# Generated outputs — produced by the analysis scripts, not tracked in git
+# =============================================================================
+
+# Figures
+24h_mortality_dose_response.png
+knockdown_over_time.png
+bottle_bioassay_boxplots.png
+
+# Catch any other generated images
+*.png
+
+# EC50 / resistance-ratio results table
+EC50_RR_results_table.csv
+
+# =============================================================================
+# R session cruft
+# =============================================================================
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# =============================================================================
+# OS files
+# =============================================================================
+.DS_Store
+Thumbs.db
